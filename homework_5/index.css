@@ -96,3 +96,43 @@ h1{
     font-size: 30px;
     text-align: center;
   }
+.display{
+    margin-top: 5rem;
+}
+
+.productdetail{
+    font-family: 'open sans', sans-serif;
+    /* padding-left: 3rem; */
+    text-align: left;
+    line-height: 5%;
+    padding-right: 1rem;
+}
+
+h2{
+    font-family: 'Francois One', sans-serif;
+    color: black;
+    font-size: 50px;
+}
+
+h4{
+    font-family: 'open sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.des{
+    line-height: 150%;
+}
+.options{
+    padding-bottom: 15px;
+}
+/* .column {
+    float: left;
+    width: 50%;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
