@@ -1,0 +1,98 @@
+body{
+    background-color: white;    
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-top: 3rem;
+    color:rgb(68, 68, 68);
+}
+
+header{
+    font-family: 'Francois One', sans-serif;
+}
+
+.title{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+    font-weight: 400;
+}
+
+.navbutton{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(68, 68, 68);
+    font-weight: 400;
+}
+
+nav{
+    float: right;
+    word-spacing: 28px;
+}
+
+.intro{
+    margin-top: 7rem;
+    text-align: center;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+.tagline{
+    font-family: 'Francois One', sans-serif;
+    font-size: 60px;
+    color: black;
+}
+
+p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+h3{
+    font-family: 'Francois One', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+button{
+    border: none;
+    background-color: #3250BD;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 530;
+}
+
+.locations{
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+h1{
+    font-family: 'Francois One', sans-serif;
+    color: black;
+    font-size: 45px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
