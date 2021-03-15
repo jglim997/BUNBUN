@@ -24,6 +24,13 @@ header{
     font-weight: 400;
 }
 
+.navbutton1{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ED5E33;
+    font-weight: 400;
+}
+
 nav{
     float: right;
     word-spacing: 28px;
@@ -39,6 +46,12 @@ nav{
     font-family: 'Francois One', sans-serif;
     font-size: 60px;
     color: black;
+    background-color: #F4F7FF;
+    /* background-image: url(images/pitt.png); */
+    margin-left: -21rem;
+    margin-right: -21rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 p{
@@ -79,6 +92,13 @@ h1{
     color: black;
     font-size: 45px;
 }
+.productbg{
+    background-color: #F4F7FF;
+    margin-left: -21rem;
+    margin-right: -21rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 
 .grid-container {
     display: grid;
@@ -89,9 +109,16 @@ h1{
     margin-right: 5rem;
   }
 
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
 .grid-item {
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -123,16 +150,16 @@ h4{
 .des{
     line-height: 150%;
 }
+
 .options{
     padding-bottom: 15px;
 }
-/* .column {
-    float: left;
-    width: 50%;
-  }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
+h5{
+    font-family: 'open sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    font-style: italic;
+}
+
