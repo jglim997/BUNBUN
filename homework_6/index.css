@@ -164,6 +164,29 @@ h5{
 }
 
 .checkoutgrid{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-top: 70px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
 }
+
+.checkout{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.row{
+    padding-bottom: 1.5rem;
+    display: flex;
+}
+.column{
+    padding-left: 50px;
+}
+
+.totalcheckout{
+    text-align: right;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    display: flex;
+}
+
