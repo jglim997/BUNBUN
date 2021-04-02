@@ -187,6 +187,7 @@ h5{
     text-align: right;
     padding-bottom: 50px;
     padding-top: 10px;
-    display: flex;
+    align-items: flex-end;
+    
 }
 
