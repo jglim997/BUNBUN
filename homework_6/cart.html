@@ -26,9 +26,9 @@
         <h1>   
             Shopping Cart
         </h1>
-        <h4>9 Items Total - $24.50</h4>
+        <h4 id="total">9 Items Total - $24.50</h4>
         <div class="checkoutgrid">
-            <div class="row">
+            <div class="row" id="item1">
                 <div class="column">
                     <img src="images/originalsmall.png" alt="original cinnamon-roll">
                 </div>
@@ -36,8 +36,9 @@
                     <h3>ORIGINAL - Cinnamon Bun</h3>
                     <img src="images/originaldetails.svg" width="90%" alt="drop-down">
                 </div>
+                <button class="trash" onclick="cart1()"><img src="images/trashcan.svg" alt="trashcan icon"></button>
             </div>
-            <div class="row">
+            <div class="row" id="item2">
                 <div class="column">
                     <img src="images/blackberrysmall.png" alt="blackberry cinnamon-roll">
                 </div>
@@ -45,31 +46,31 @@
                     <h3>BLACKBERRY - Cinnamon Bun</h3>
                     <img src="images/blackberrydetails.svg" width="90%" alt="drop-down">
                 </div>
+                <button class="trash" onclick="cart2()"><img src="images/trashcan.svg" alt="trashcan icon"></button>
             </div>
 
-            <div class="row">
+            <div class="row" id="item3">
                 <div class="column">
                     <img src="images/blackberrysmall.png" alt="blackberry cinnamon-roll">
                 </div>
                 <div class="column">
                     <h3>BLACKBERRY - Cinnamon Bun</h3>
                     <img src="images/blackberrydetails.svg" width="90%" alt="drop-down">
-                    
                 </div>
+                <button class="trash" onclick="cart3()"><img src="images/trashcan.svg" alt="trashcan icon"></button>
             </div>
         </div>
         <br>
         <hr>
         
         <div class="totalcheckout">
-            <h4>Subtotal: $24.50</h4>
             <img src="images/checkoutbutton.svg" alt="checkoutbutton">
             
         </div>
         
         
     </div>
-    
+    <script src="products.js"></script>
     
 
 

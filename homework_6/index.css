@@ -188,6 +188,9 @@ h5{
     padding-bottom: 50px;
     padding-top: 10px;
     align-items: flex-end;
-    
 }
-
+.trash{
+    all:revert;
+    background-color: white;
+    border:none;
+}
