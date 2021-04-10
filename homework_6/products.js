@@ -1,3 +1,4 @@
+//functions for hover on product page
 function newblackberry(){
     document.getElementById("img3").src = "images/newblackberry.png"; 
 }
@@ -6,6 +7,7 @@ function blackberry(){
     document.getElementById("img3").src = "images/blackberry.png";
 }
 
+//functions to remove items from the cart
 function cart1(){
     var bun = document.getElementById("item1");
     bun.remove();
